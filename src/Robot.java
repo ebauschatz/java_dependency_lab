@@ -1,11 +1,11 @@
-public class Robot {
+public class Robot implements Attacker {
     // Instance variables
     public String name;
     public Weapon weapon;
 
     // Constructor
-    public Robot(Weapon weapon) {
-        this.name = "K2SO";
+    public Robot(Weapon weapon, String name) {
+        this.name = name;
         this.weapon = weapon;
     }
 
